@@ -32,14 +32,12 @@ Follow these steps to replicate the project:
 
 2. **Generate Mock Data**:
   ```bash
-  python `generate_data.py`
-
-Outputs retail_sales_data.csv with 10,000 rows.
+  python generate_data.py
 
 3. **Analyze Sales Data**:
   ```powershell
   $env:SPARK_LOCAL_HOSTNAME = "localhost"
-  python `analyze_sales.py`
+  python analyze_sales.py
 
 Outputs top_products.csv with the top 5 products.
 
@@ -66,10 +64,6 @@ Sample output from a recent run (April 9, 2025):
 |  PROD_041|30798.160000000014|
 |  PROD_038| 30705.73999999999|
 +----------+------------------+
-
-**Screenshots**
-Data Analysis Output: View `screenshots/analyze_output.png` (#)
-Displays the full output of analyze_sales.py, including loaded data, sales by date, and top 5 products.
 
 S3 Upload Confirmation: View `screenshots/s3_upload.png` (#)
 Shows the successful upload of top_products.csv to S3 with bucket listing.
