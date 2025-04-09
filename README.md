@@ -65,7 +65,6 @@ Sample output from a recent run (April 9, 2025):
 |  PROD_038| 30705.73999999999|
 +----------+------------------+
 
-S3 Upload Confirmation: View `screenshots/s3_upload.png` (#)
 Shows the successful upload of top_products.csv to S3 with bucket listing.
 
 **Technical Challenges**
